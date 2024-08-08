@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/Asdojob">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/buttonTwoPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo Dois Jogadores"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/buttonVsMachine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo Contra a Máquina"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+</LinearLayout>
